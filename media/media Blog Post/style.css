@@ -1,0 +1,106 @@
+@media screen and (min-width: 540px) {
+    .header-container{
+        width: 65%; /*768px*/
+    }
+    .section1{
+        padding-bottom: 64px;
+    }
+    .section1-container{
+        margin: 0 auto;
+    }
+    .section1-container-img{
+        width: 100%;
+    }  
+    .section1-container-block{
+        width: 500px;
+        margin: 64px auto 0;
+        padding: 0 ;
+    }
+    .section1-container-block-title1{
+        font-size: 30px;   /*36px*/
+        line-height: 40px; /* 48px */
+        /*width: 843px;*/
+    }
+    .section1-container-block-text1{
+        line-height: 28px; /* 175% */
+         /*width: 843px;*/    
+    }
+    .section1-container-block-ul{
+        font-size: 24px;  /*24px*/  
+    }
+    .section2-container-blocks{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .section2-container-title{
+        font-size: 36px; /*36px*/
+        line-height: 48px; /* 48px */
+        text-align: left;
+    }
+}
+@media screen and (min-width: 768px) {
+    .header-container{
+        width: 65%; /*768px*/
+    }
+    .section1-container-block-title1{
+        font-size: 36px;   /*36px*/
+        line-height: 48px; /* 48px */
+        width: 763px;
+    }
+    .section1-container-block-text1{
+        width: 700px;    
+    }
+    .section1-container-block{
+        width: 710px;
+        padding: 0 ;
+    }
+    .section2-container-blocks{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .section2-container-blocks-block1{
+        width: 320px;
+    }
+    .section2-container-blocks-block1-title{
+        font-size: 28px;  /*28px*/
+        line-height: 40px; /* 40px */
+    }
+}
+@media screen and (min-width: 992px) {
+    .header-container{
+        width: 768px; /*768px*/
+    }
+
+    .section1-container-block-title1{
+        width: 843px;
+    }
+    .section1-container-block-text1{
+        width: 837px;    
+    }
+    .section1-container-block{
+        width: 850px;
+    }
+    .section2-container-blocks{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .section2-container-blocks-block1{
+        width: 270px;
+    }
+}
+@media screen and (min-width: 1280px) {
+    .section2-container{
+        width: 1280px;
+    }
+    .section2-container-blocks{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .section2-container-blocks-block1{
+        width: 405px;
+    }
+}
