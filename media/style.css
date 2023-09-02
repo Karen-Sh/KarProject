@@ -404,6 +404,8 @@
     .section2-container-color{
         margin-right: 119px;
         visibility: visible;
+        max-width: 1280px;
+        margin: auto;
     }
     .section4-container-block{
         width: 706px;
